@@ -66,6 +66,19 @@ main{
   
 .modal {
     display: none;
+}
+
+.modal-blocker {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    content: ' ';
+    background : rgba(0,0,0,0.4);
+}
+
+.modal-inner{
     position: fixed;
     right: 0;
     left: 0;
@@ -80,7 +93,7 @@ main{
     color: whitesmoke;
 }
 
-.modal-inner{
+.modal-inner-content {
     width: 290px;
     margin: 0 auto;
 }
